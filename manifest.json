@@ -1,0 +1,19 @@
+{
+  "name": "Hello Viz",
+  "organization": "Custom",
+  "description": "My first Looker Studio visualization",
+  "logoUrl": "",
+  "supportUrl": "",
+  "devMode": true,
+  "components": [
+    {
+      "id": "hello-viz",
+      "name": "Hello Visualization",
+      "description": "Simple hello world visualization",
+      "iconUrl": "",
+      "resource": {
+        "js": ["viz-codelab.js"]
+      }
+    }
+  ]
+}
