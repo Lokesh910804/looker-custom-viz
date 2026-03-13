@@ -12,10 +12,23 @@
       "description": "Simple hello world visualization",
       "iconUrl": "https://www.gstatic.com/images/branding/product/1x/looker_studio_48dp.png",
       "resource": {
-        "js": [{
-          "url": "https://raw.githubusercontent.com/Lokesh910804/looker-custom-viz/main/viz-codelab.js"
-        }]
-      }
+        "script": "https://raw.githubusercontent.com/Lokesh910804/looker-custom-viz/main/viz-codelab.js"
+      },
+      "data": {
+        "dimensions": [
+          {
+            "id": "dimension",
+            "name": "Dimension"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "metric",
+            "name": "Metric"
+          }
+        ]
+      },
+      "style": {}
     }
   ]
 }
